@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  pawPrint,
+  PawPrint,
   ShoppingCart,
   Truck,
   Heart,
@@ -18,7 +18,7 @@ export default function Page() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
             <div className="p-2 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 text-white">
-              <Paw size={20} />
+              <PawPrint size={20} />
             </div>
             <div>
               <span className="block font-extrabold text-lg">PeePaw</span>
@@ -167,7 +167,7 @@ export default function Page() {
 
           <div className="bg-white p-6 rounded-xl shadow-sm border">
             <div className="p-3 inline-flex bg-purple-50 rounded-md text-purple-600">
-              <Paw size={20} />
+              <PawPrint size={20} />
             </div>
             <h3 className="mt-4 font-semibold">Loved by Pets</h3>
             <p className="mt-2 text-sm text-slate-600">
@@ -416,7 +416,7 @@ export default function Page() {
         <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-3">
             <div className="p-2 rounded-md bg-gradient-to-br from-blue-500 to-purple-600 text-white">
-              <Paw size={18} />
+              <PawPrint size={18} />
             </div>
             <div>
               <div className="font-semibold">PeePaw</div>
