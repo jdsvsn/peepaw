@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Paw,
+  pawPrint,
   ShoppingCart,
   Truck,
   Heart,
